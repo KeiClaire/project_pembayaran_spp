@@ -1,3 +1,20 @@
+<?php
+session_start();
+if (empty($_SESSION['id_petugas'])) {
+    echo"<script>
+    alert('Maaf Anda Belum Login');
+    window.location.assign('../index2.php');
+    </script>";
+}
+
+if ($_SESSION['level']!='admin') {
+    echo"<script>
+    alert('Maaf Anda Bukan Admin');
+    window.location.assign('../index2.php');
+    </script>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
