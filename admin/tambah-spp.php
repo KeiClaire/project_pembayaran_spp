@@ -11,7 +11,7 @@
         <input type="number" name="nominal" maxlength="13" class="form-control" required>
     </div>
     <div class="form-group">
-        <button type="sumbit" class="btn btn-success">Simpan</button>
+        <button type="submit" class="btn btn-success">Simpan</button>
         <button type="reset" class="btn btn-warning">Kosongkan</button>
     </div>
 </form>
